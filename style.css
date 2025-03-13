@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navigacija */
+.navbar {
+    background-color: #049e70;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+/* Sekcije */
+h3 {
+    text-align: center;
+    color: #049e70;
+    border-bottom: 2px solid #00a716;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.content-section {
+    padding: 30px;
+}
+
+/* Slike */
+.img-thumbnail {
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    background-color: #049e70;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
